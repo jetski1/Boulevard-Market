@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav_panel {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__nav-left {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.list__item {
+    margin-left: 30px;
+}
+
+.list__item-link {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__nav-righticon {
+    margin-left: 25px;
+    color: white;
+}
+
+.header__nav-lefticon {
+    color: white;
+}
+
+.header__banner {
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__banner-title {
+    font-family: 'Prosto One';
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 75px;
+    color: white;
+}
+
+.header__button {
+    background: white;
+    border-radius: 10px;
+    padding: 13px 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.header__button-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+
+
+}
+
+.fa-external-link {
+    font-size: 15px;
+    margin-left: 11px;
+}
+
+.main {
+    padding: 30px 0 55px;
+    background: #151515;
+}
+
+.main__airpods {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__item1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.main__item1-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+    margin-right: 30px;
+}
+
+.main__pic {
+    max-width: 552px;
+    width: 100%;
+}
+
+.main__item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+
+.main__item2-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-left: 87px;
+}
+
+.main__item3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+    align-items: center;
+}
+
+.main__text-left {
+    max-width: 333px;
+    width: 100%;
+    text-align: right;
+}
+
+.main__text-right {
+    max-width: 333px;
+    width: 100%;
+}
+
+.main__text-left,
+.main__text-right {
+    font-family:' Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.main__item3-img {
+    max-width: 418px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__item3-img::before,
+.main__item3-img::after {
+    content: '';
+    display: block;
+    max-width: 61px;
+    width: 100%;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.main__item3-text {
+    max-width: 333px;
+    width: 100%;
+}
+
+.main__iphones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.main__block-title {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+}
+
+.main__block-pic {
+    margin: 10px 0;
+}
+
+.main__block-cena {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.main__block-view {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    max-width: 161px;
+    width: 100%;
+    background: #151515;
+    text-align: center;
+    padding: 7px 0;
+    margin-top: 20px;
+}
+.footer{
+    background: #282828;;
+}
+.footer__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.card{
+    font-size: 70px;
+    color: white;
+}
+.fa-cc-visa{
+    margin-right: 29px;
+
+}
+@media(max-width:1000px){
+    .main__iphones{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__block{
+        margin: 15px;
+    }
+}
+
+@media(max-width:880px){
+    .main__item1-text{
+        font-size: 18px;
+        line-height: 20px;
+        margin-right:15px ;
+    }
+    .main__item2-text{
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 40px ;
+    }
+    .main__pic{
+        
+    max-width: 370px;
+    }
+    .main__item3-img::before,
+.main__item3-img::after{
+    height: 0px;
+}
+.main__text-left,
+.main__text-right{
+    font-size: 16px;
+    line-height: 18px;
+}
+.main__item3-img{
+max-width: 300px;
+}
+
+}
+@media(max-width: 670px){
+    .header__banner-title{
+        font-size: 50px;
+    }
+}
+@media(max-width:550px){
+    .list__item{
+        margin-left: 15px;
+    }
+    .header__nav-righticon{
+        margin-left: 10px;
+    }
+    .main__item1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__item2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__item3{
+        flex-direction: column;
+    }
+    .card{
+        font-size: 50px;
+    }
+    .fa-cc-visa{
+        margin-right: 10px;
+    }    
+}
+@media(max-width:390px){
+    .header__nav-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__banner-title{
+        font-size: 30px;
+    }
+    .main__item1-text{
+        margin-right: 0;
+    }
+    .main__item2-text{
+        margin-left: 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+}
+
+
